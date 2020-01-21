@@ -2,37 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Booking</title>
+      <link rel="stylesheet" href="style.css">
   </head>
   <body>
-  <style>
-h1{
-  color:green;
 
-}
-#submit{
-  background-color:darkcyan;
-  color:white;
-  width:300px;
-  height:100px;
-  margin-left:100px;
-    box-shadow: 5px 5px 5px darkslategray;
-}
-#submit:hover {
-  transform: translate(-10px, -10px);
-  box-shadow: 15px 15px 8px darkslategray;
-  transition: 0.5s;
-}
-#submit:active {
-  transform: translate(3px, 3px);
-  box-shadow: 2px 2px 3px darkslategray;
-  transition: 1s;
-}
-#content{
-margin-left:100px;
-width:1000px;
-}
-  </style>
     <h1 align="center">Enter Booking Details</h1>
   <form  id="content">  <p style ="font-size:30px;">Enter Source Station:
       <input style="font-size:25px;" type="text" name="Source Station" value=""></p>
@@ -50,10 +24,11 @@ width:1000px;
     <p style ="font-size:30px;">Gender:
     <input type="radio" name="gender" value="male" checked> Male
       <input type="radio" name="gender" value="female"> Female<br>
-    </p>
-  </form>
+    </p></form>
+<button id="submit">Submit</button>
+  <!-- </form>
     <form action="booking.html">
-    <input id="submit" style ="font-size:30px;" type="submit" value="Submit">
-    </form>
+    <input  style ="font-size:30px;" type="submit" value="Submit">
+    </form> -->
   </body>
 </html>
